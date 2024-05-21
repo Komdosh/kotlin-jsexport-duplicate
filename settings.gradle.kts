@@ -14,4 +14,3 @@ pluginManagement {
 rootProject.name = "kotlin-jsexport-duplicate"
 
 include("module1")
-include("module2")

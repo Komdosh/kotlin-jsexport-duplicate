@@ -5,5 +5,5 @@ import kotlin.js.JsExport
 
 @JsExport
 @OptIn(ExperimentalJsExport::class)
-data class Module1Data2Class(val name: String) {
+data class Module2Data2Class(val name: String) {
 }

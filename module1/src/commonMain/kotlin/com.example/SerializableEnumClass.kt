@@ -7,5 +7,7 @@ import kotlin.js.JsExport
 @JsExport
 @OptIn(ExperimentalJsExport::class)
 @Serializable
-data class Module1Data2Class(val name: String) {
+enum class SerializableEnumClass {
+    VALUE,
+    VALUE_2
 }

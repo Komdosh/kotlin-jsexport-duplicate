@@ -7,5 +7,5 @@ import kotlin.js.JsExport
 @JsExport
 @OptIn(ExperimentalJsExport::class)
 @Serializable
-data class Module1Data2Class(val name: String) {
+abstract class AbstractSerializableClass(val name: String) {
 }

@@ -3,7 +3,6 @@ import org.jetbrains.kotlin.gradle.dsl.JsMainFunctionExecutionMode
 plugins {
     kotlin("multiplatform") apply true
     kotlin("plugin.serialization") apply true
-    id("love.forte.plugin.suspend-transform") version "0.9.0"
 }
 
 kotlin {
@@ -30,8 +29,8 @@ kotlin {
             dependencies {
                 implementation(kotlin("stdlib-jdk8"))
 
-                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0-RC")
-                implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.1")
+                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.1")
+                implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.8.0")
             }
         }
     }
@@ -39,8 +38,4 @@ kotlin {
 
 repositories {
     mavenCentral()
-}
-
-suspendTransform {
-    useJsDefault()
 }

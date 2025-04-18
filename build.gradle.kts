@@ -1,6 +1,6 @@
 plugins {
-    kotlin("jvm") version "2.1.20" apply false
-    kotlin("plugin.serialization") version "2.1.20" apply false
+    kotlin("jvm") version "2.2.0-Beta1" apply false
+    kotlin("plugin.serialization") version "2.2.0-Beta1" apply false
 
 }
 group = "org.example"
